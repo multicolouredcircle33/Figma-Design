@@ -1,0 +1,110 @@
+/*MOBILE VIEW*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.nav-logo {
+  width: 10em;
+  height: 2.5em;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-links,
+.login {
+  display: none;
+}
+
+.home-page {
+  position: relative;
+  color: white;
+  background-color: black;
+}
+
+.svg-pattern {
+  width: 100%;
+  height: 900px;
+}
+
+.home-page-content {
+  position: absolute;
+  top: 0;
+  margin-top: 3em;
+}
+
+.header-text {
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.header-sub-text {
+  text-align: center;
+}
+
+.homepage-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.free-trial-button {
+  width: 100%;
+  background: linear-gradient(229.46deg, #673AB7 0%, #4B03CD 86.82%);
+  font-size: 17px;
+  line-height: 29.05px;
+  text-align: center;
+  color: white;
+  border-radius: 17px;
+  font-family: "Poppins", serif;
+}
+
+.github-button {
+  margin-top: 1em;
+  width: 100%;
+  border: 1px solid #828282;
+  backdrop-filter: blur(10px);
+  background: inherit;
+  font-family: "Poppins", serif;
+  font-size: 17px;
+  line-height: 29.05px;
+  text-align: center;
+  border-radius: 17px;
+  color: white;
+}
+
+.homepage-img-container {
+  margin-top: 2em;
+}
+
+.homepage-img {
+  width: 100%;
+  height: 300px;
+}
+
+/*TABLET VIEW*/
+@media screen and (min-width: 768px) {
+  
+}
+/*DESKTOP VIEW*/
+@media screen and (min-width: 1024px) {
+  
+}
