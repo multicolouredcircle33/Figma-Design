@@ -19,7 +19,7 @@ nav {
 
 .nav-logo {
   width: 10em;
-  height: 2.5em;
+  height: 2em;
 }
 
 .poppins-regular {
@@ -34,19 +34,17 @@ nav {
 }
 
 .home-page {
-  position: relative;
   color: white;
   background-color: black;
-}
-
-.svg-pattern {
+  background-image: url("/assets/images/SVG\ by\ MagicPattern.design\ \(2\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  height: 900px;
+  height: 1150px;
 }
 
 .home-page-content {
-  position: absolute;
-  top: 0;
   margin-top: 3em;
 }
 
@@ -98,6 +96,80 @@ nav {
 .homepage-img {
   width: 100%;
   height: 300px;
+  border: 1px solid #828282;
+  border-radius: 12px;
+}
+
+.below-home {
+  margin-top: 2em;
+}
+
+.below-home-text {
+  color: white;
+  font-size: 20px;
+  line-height: 1.5em;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.below-home-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.google-icon {
+  width: 120px;
+  height: 60px;
+}
+
+.amazon-icon {
+  margin-top: 1em;
+  width: 150px;
+  height: 60px;
+}
+
+.bytedance-icon {
+  width: 300px;
+  height: 60px;
+}
+
+.collect-organize {
+  background-image: url("/assets/images/c&oSVG\ by\ MagicPattern.design.png");
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  text-align: center;
+}
+
+.collect-button {
+  border: 2px solid;
+  background: linear-gradient(121.75deg, rgba(236, 200, 200, 0.2) 0.95%, rgba(0, 0, 0, 0.12) 37.87%, rgba(255, 255, 255, 0.02) 84.35%);
+}
+
+.service-text {
+  text-align: left;
+}
+
+.service-heading {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  margin-top: 1em;
+}
+
+.mark-up {
+  width: 3em;
+  height: 2em;
+}
+
+.list-item {
+ display: flex;
 }
 
 /*TABLET VIEW*/
