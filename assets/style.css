@@ -311,6 +311,7 @@ nav {
   color: white;
   font: 700 25px/1.3em;
   text-align: center;
+  overflow: hidden;
 }
 
 .box1-of-fifth {
@@ -360,17 +361,16 @@ nav {
   background: url("/assets/images/Rectangle\ 1.png") center no-repeat;
   background-size: contain;
   width: 320px;
-  height: 700px; 
+  height: 700px;
   position: relative;
   margin-top: -5em;
   margin-bottom: -5em;
 }
 
 .cloud {
-  color: #79C5FC;
+  color: #79c5fc;
   font: 20px/1.2em;
   font-family: 'poppins', serif;
-  margin-top: px;
   overflow: hidden;
 }
 
@@ -416,17 +416,22 @@ nav {
 .sixth-section {
   width: 100%;
   height: 820px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sixth-section-header {
   font: 700 25px/1.5em;
   font-family: 'poppins', serif;
   color: white;
+  overflow: hidden;
 }
 
 .reach-out {
   color: white;
   margin-top: 1em;
+  overflow: hidden;
 }
 
 .line {
@@ -457,8 +462,13 @@ nav {
   margin-right: 3em;
 }
 
+.above-footer {
+  overflow: hidden;
+}
+
 .above-footer-text {
   font: 800 17px/1.5em;
+  overflow: hidden;
   font-family: 'poppins', serif;
   color: white;
   margin-top: 3em;
@@ -470,6 +480,10 @@ nav {
   color: white;
 }
 
+footer {
+  padding-top: 2em;
+}
+
 .footer-logo {
   width: 10em;
   height: 2em;
@@ -479,15 +493,13 @@ nav {
   color: #CECECE;
   font: 14px/1.5em;
   font-family: 'poppins', serif;
+  text-align: center;
 }
 
 .footer-link {
   text-align: center;
   color: #c0c0c0;
   text-decoration: none;
-}
-
-.footer-link {
   margin: 4em 0;
 }
 
@@ -511,16 +523,6 @@ nav {
   height: 1em;
 }
 
-.footer-intro-text {
-  text-align: center;
-}
-
-.sixth-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .fourth-section-boxes,
 .billing-plan {
   display: flex;
@@ -539,7 +541,8 @@ nav {
   flex-direction: column;
   align-content: center;
 }
-/*TABLET VIEW*/
+
+/* TABLET VIEW */
 @media screen and (min-width: 768px) {
   .homepage-img {
     height: 400px;
@@ -668,9 +671,9 @@ nav {
     column-gap: 10px;
   }
 }
-/*DESKTOP VIEW*/
-@media screen and (min-width: 1024px) {
 
+/* DESKTOP VIEW */
+@media screen and (min-width: 1024px) {
   .home-page {
     height: 1850px;
   }
@@ -684,7 +687,7 @@ nav {
     display: none;
   }
 
-  .nav-links{
+  .nav-links {
     display: flex;
     font-family: 'poppins', serif;
     color: white;
@@ -722,6 +725,7 @@ nav {
   .header-sub-text {
     font-size: 20px;
   }
+
   .homepage-img {
     width: 1000px;
     height: 600px;
@@ -742,10 +746,6 @@ nav {
   .below-home-text {
     font-size: 30px;
     margin: 0 3em;
-  }
-
-  .below-home-icons {
-    margin-top: 0px;
   }
 
   .collect-organize {
@@ -772,15 +772,12 @@ nav {
 
   .third-section-content {
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 6em;
   }
 
   .free-trial-button,
   .github-button {
     width: 300px;
-  }
-
-  .third-section-content {
-    padding: 0 6em;
   }
 
   .section-header {
@@ -855,10 +852,6 @@ nav {
 
   .sixth-section {
     padding: 0 10em;
-  }
-
-  .menu-icon {
-    display: none;
   }
 
   footer {
