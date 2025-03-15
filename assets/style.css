@@ -324,7 +324,7 @@ nav {
 .self-hosted {
   color: #79c5fc;
   font-family: "poppins", serif;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .free {
@@ -464,6 +464,7 @@ nav {
 
 .above-footer {
   overflow: hidden;
+  padding: 0 0 2em 0;
 }
 
 .above-footer-text {
@@ -504,7 +505,7 @@ footer {
 }
 
 .footer-links-header {
-  margin-bottom: 0;
+  margin: 1em 0;
 }
 
 .footer-email {
@@ -683,7 +684,7 @@ footer {
     height: 50px;
   }
 
-  .menu-icon {
+  .fa-bars {
     display: none;
   }
 
@@ -824,6 +825,7 @@ footer {
   .box1-of-fifth {
     order: 1;
     width: 18em;
+    margin-top: 1.5em;
   }
 
   .box2-of-fifth {
@@ -834,6 +836,8 @@ footer {
   .box3-of-fifth {
     order: 3;
     width: 18em;
+    height: 26em;
+    margin-top: 1.5em;
   }
 
   .footer-intro-text {
