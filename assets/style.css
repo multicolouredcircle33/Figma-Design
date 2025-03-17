@@ -694,12 +694,6 @@ footer {
     color: white;
   }
 
-  .navi-link {
-    font-family: 'poppins', serif;
-    color: white;
-    text-decoration: none;
-  }
-
   .login {
     display: flex;
     font-family: 'poppins', serif;
